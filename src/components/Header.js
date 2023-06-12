@@ -16,7 +16,16 @@ const Header = () => {
           <ul>
             <li>
               <Link
-                to="/"
+                to="/home"
+                className={activeSection === "home" ? "active" : ""}
+                onClick={() => handleSetActiveSection("home")}
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/aboot"
                 className={activeSection === "aboot" ? "active" : ""}
                 onClick={() => handleSetActiveSection("aboot")}
               >
@@ -39,6 +48,15 @@ const Header = () => {
                 onClick={() => handleSetActiveSection("contact")}
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/resume"
+                className={activeSection === "resume" ? "active" : ""}
+                onClick={() => handleSetActiveSection("resume")}
+              >
+                Resume
               </Link>
             </li>
           </ul>
