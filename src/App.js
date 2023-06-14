@@ -10,24 +10,34 @@ import Taboot from "./components/Taboot";
 function App() {
   const [currentSection, setCurrentSection] = useState("home");
 
-  const handleSectionChange = (section) => {
-    setCurrentSection(section);
+  const renderSection = () => {
+    if (currentSection === "home") {
+      return <Home />;
+    }
+    if (currentSection === "aboot") {
+      return <Aboot />;
+    }
+    if (currentSection === "taboot") {
+      return <Taboot />;
+    }
+    if (currentSection === "contact") {
+      return <Contact />;
+    }
+    if (currentSection === "resume") {
+      return <Resume />;
+    }
   };
 
   return (
     <>
     <Header
-         activeSection={currentSection}
-         setActiveSection={handleSectionChange}
-       />
-    {currentSection === "home" && <Home />}
-    {currentSection === "aboot" && <Aboot />}
-    {currentSection === "contact" && <Contact />}
-    {currentSection === "taboot" && <Taboot />}
-    {currentSection === "resume" && <Resume />}
-    <Footer />
-    </>
-    );
-    }
-    
+      currentSection={currentSection}
+      setCurrentSection={setCurrentSection}>
+        </Header>
+        <main>{renderSection()}</main>
+        <Footer></Footer>
+        </>
+  );
+}
+
     export default App;

@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [activeSection, setActiveSection] = React.useState("home");
+  const [currentSection, setCurrentSection] = React.useState("home");
 
-  const handleSetActiveSection = (section) => {
-    setActiveSection(section);
+  const handleSectionChange = (section) => {
+    setCurrentSection(section);
   };
 
   return (
@@ -17,8 +17,8 @@ const Header = () => {
             <li>
               <Link
                 to="/home"
-                className={activeSection === "home" ? "active" : ""}
-                onClick={() => handleSetActiveSection("home")}
+                className={currentSection === "home" ? "active" : ""}
+                onClick={() => handleSectionChange("home")}
               >
                 Home
               </Link>
@@ -26,8 +26,8 @@ const Header = () => {
             <li>
               <Link
                 to="/aboot"
-                className={activeSection === "aboot" ? "active" : ""}
-                onClick={() => handleSetActiveSection("aboot")}
+                className={currentSection === "aboot" ? "active" : ""}
+                onClick={() => handleSectionChange("aboot")}
               >
                 Aboot Me
               </Link>
@@ -35,8 +35,8 @@ const Header = () => {
             <li>
               <Link
                 to="/taboot"
-                className={activeSection === "taboot" ? "active" : ""}
-                onClick={() => handleSetActiveSection("taboot")}
+                className={currentSection === "taboot" ? "active" : ""}
+                onClick={() => handleSectionChange("taboot")}
               >
                 Me Taboot
               </Link>
@@ -44,8 +44,8 @@ const Header = () => {
             <li>
               <Link
                 to="/contact"
-                className={activeSection === "contact" ? "active" : ""}
-                onClick={() => handleSetActiveSection("contact")}
+                className={currentSection === "contact" ? "active" : ""}
+                onClick={() => handleSectionChange("contact")}
               >
                 Contact
               </Link>
@@ -53,8 +53,8 @@ const Header = () => {
             <li>
               <Link
                 to="/resume"
-                className={activeSection === "resume" ? "active" : ""}
-                onClick={() => handleSetActiveSection("resume")}
+                className={currentSection === "resume" ? "active" : ""}
+                onClick={() => handleSectionChange("resume")}
               >
                 Resume
               </Link>
