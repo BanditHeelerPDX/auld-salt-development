@@ -5,7 +5,7 @@ const Aboot = () => {
     <section id="aboot">
       <div className="aboot-content">
         <img
-          src="https://via.placeholder.com/150"
+          src="../assets/images/viking-me.jpg"
           alt="A portrait of the developer as an aging father."
         />
         <p>
