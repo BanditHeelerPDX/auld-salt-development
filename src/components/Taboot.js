@@ -4,22 +4,22 @@ import Project from "./Project";
 const Taboot = () => {
     const taboots = [
         {
-            title: "Taboot 1",
-            imgSrc: "path/to/image1",
-            depLink: "deployed link1",
-            gitLink: "github link1",
+            title: "Read My Node",
+            imgSrc: "../assets/images/read-my-node-scrsht.png",
+            depLink: "CLI readme generator - not deployed",
+            gitLink: "https://github.com/BanditHeelerPDX/read-my-node",
         },
         {
-            title: "Taboot 2",
-            imgSrc: "path/to/image2",
-            depLink: "deployed link2",
-            gitLink: "github link2",
+            title: "Gist - Regex Ain't No Basic Ex",
+            imgSrc: "../assets/images/gist-scrsht.png",
+            depLink: "https://gist.github.com/BanditHeelerPDX/65848874a709ed3ebd4a04bb0e7c931e",
+            gitLink: "No repo, just the gist, ma'am.",
         },
         {
-            title: "Taboot 3",
-            imgSrc: "path/to/image3",
-            depLink: "deployed link3",
-            gitLink: "github link3",
+            title: "Babycorp Employee Database",
+            imgSrc: "../assets/images/babycorp-db-scrsht.png",
+            depLink: "https://drive.google.com/file/d/1htoKC-G1Ggu3NJ6NoRy3-OrBXzjQZeZS/view",
+            gitLink: "https://github.com/BanditHeelerPDX/babycorp_employee_database",
         },
         {
             title: "Taboot 4",
