@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
-  const [currentSection, setCurrentSection] = React.useState("home");
-
-  const handleSectionChange = (section) => {
-    setCurrentSection(section);
-  };
+const Header = (props) => {
+  const { currentSection, handleSectionChange } = props;
 
   return (
     <header>

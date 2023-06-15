@@ -8,7 +8,7 @@ import Resume from "./components/Resume";
 import Taboot from "./components/Taboot";
 
 function App() {
-  const [currentSection, setCurrentSection] = useState("home");
+  const [currentSection, handleSectionChange] = useState("home");
 
   const renderSection = () => {
     if (currentSection === "home") {
@@ -32,7 +32,7 @@ function App() {
     <>
     <Header
       currentSection={currentSection}
-      setCurrentSection={setCurrentSection}>
+      handleSectionChange={handleSectionChange}>
         </Header>
         <main>{renderSection()}</main>
         <Footer></Footer>
