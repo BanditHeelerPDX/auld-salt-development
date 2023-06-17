@@ -1,11 +1,12 @@
 import React from "react";
+import image from "../assets/images/viking-me.jpg";
 
 const Aboot = () => {
   return (
     <section id="aboot">
       <div className="aboot-content">
         <img
-          src="../assets/images/viking-me.jpg"
+          src={image}
           alt="A portrait of the developer as an aging father."
         />
         <p>
