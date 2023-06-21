@@ -32,8 +32,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <div className="contact-form">
+    <section id="contact" className="contact-form">
+      <div className="flex-row">
+        <h2 className="title">Contact</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -60,7 +61,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
-  );
+  ); 
 };
 
 export default Contact;
