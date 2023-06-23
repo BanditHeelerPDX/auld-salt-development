@@ -3,18 +3,26 @@ import image from "../assets/images/viking-me.jpg";
 
 const Aboot = () => {
   return (
-    <section id="aboot" className="my-6">
-      <div className="flex-row">
-        <h2 className="title prime-border" id="aboot-me">
+    <section id="aboot" className="my-6 container">
+      <div className="row justify-content-center">
+        <h2 className="title prime-border col-8" id="aboot-me">
           Aboot Me, eh
         </h2>
       </div>
-      <div className="flex-row">
-        <div className="aboot-content">
-          <div className="aboot-img">
+      <div className="row justify-content-center">
+        <div className="aboot-content col-8">
+          <div
+            className="aboot-img"
+            style={{
+              maxWidth: "50%",
+              float: "right",
+              animation: "spin 2s linear",
+            }}
+          >
             <img
               src={image}
               alt="A portrait of the developer as an aging father."
+              style={{ maxWidth: "30%", borderRadius: "8px" }}
             />
           </div>
           <p>
@@ -25,6 +33,14 @@ const Aboot = () => {
           </p>
         </div>
       </div>
+      <style>
+        {`
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        `}
+      </style>
     </section>
   );
 };
