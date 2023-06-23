@@ -30,14 +30,14 @@ function App() {
 
   return (
     <>
-    <Header
-      currentSection={currentSection}
-      handleSectionChange={handleSectionChange}>
-        </Header>
-        <main>{renderSection()}</main>
-        <Footer></Footer>
-        </>
+      <Header
+        currentSection={currentSection}
+        handleSectionChange={handleSectionChange}
+      ></Header>
+      <main>{renderSection()}</main>
+      <Footer></Footer>
+    </>
   );
 }
 
-    export default App;
+export default App;
