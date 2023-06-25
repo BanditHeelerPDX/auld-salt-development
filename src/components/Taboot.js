@@ -56,13 +56,14 @@ const Taboot = () => {
         <h3>Me Taboot</h3>
         <div className="taboots-container">
           {taboots.map((taboot, index) => (
-            <Project
-              key={index}
-              title={taboot.title}
-              imgSrc={taboot.imgSrc}
-              depLink={taboot.depLink}
-              gitLink={taboot.gitLink}
-            />
+            <div key="index" className="col-lg-4 col-md-6 mb-4">
+              <Project
+                title={taboot.title}
+                imgSrc={taboot.imgSrc}
+                depLink={taboot.depLink}
+                gitLink={taboot.gitLink}
+              />
+            </div>
           ))}
         </div>
       </div>
