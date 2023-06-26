@@ -50,19 +50,31 @@ const Taboot = () => {
     },
   ];
 
+  const rows = [];
+  const rowSize = 2; // Number of projects per row
+
+  for (let i = 0; i < taboots.length; i += rowSize) {
+    const row = taboots.slice(i, i + rowSize);
+    rows.push(row);
+  }
+
   return (
     <section id="taboot">
       <div className="taboot-content">
         <h3>Me Taboot</h3>
-        <div className="taboots-container">
-          {taboots.map((taboot, index) => (
-            <div key="index" className="col-lg-4 col-md-6 mb-4">
-              <Project
-                title={taboot.title}
-                imgSrc={taboot.imgSrc}
-                depLink={taboot.depLink}
-                gitLink={taboot.gitLink}
-              />
+        <div className="row">
+          {rows.map((row, index) => (
+            <div className="row" key={index}>
+              {row.map((taboot, idx) => (
+                <div key={idx} className="col-lg-6 col-md-6 mb-4">
+                  <Project
+                    title={taboot.title}
+                    imgSrc={taboot.imgSrc}
+                    depLink={taboot.depLink}
+                    gitLink={taboot.gitLink}
+                  />
+                </div>
+              ))}
             </div>
           ))}
         </div>

@@ -3,8 +3,8 @@ import React from "react";
 const Project = ({ title, imgSrc, depLink, gitLink }) => {
   return (
     <section id="project">
-      <div className="project-content">
-        <img src={imgSrc} alt={title} />
+      <div className="project-content col-lg-4 col-md-6 mb-4">
+        <img style={{ width: "80%" }} src={imgSrc} alt={title} />
         <h3>{title}</h3>
         <div className="project-links">
           <a href={depLink} target="_blank" rel="noreferrer">
