@@ -9,8 +9,15 @@ const Header = (props) => {
       <div className="header-content">
         <h1>BanditHeelerPDX</h1>
         <nav>
-          <ul>
-            <li>
+          <ul
+            style={{
+              display: "flex",
+              margin: "0",
+              padding: "0",
+              listStyle: "none",
+            }}
+          >
+            <li style={{ marginRight: "1rem" }}>
               <Link
                 to="/home"
                 className={currentSection === "home" ? "active" : ""}
@@ -19,7 +26,7 @@ const Header = (props) => {
                 Home
               </Link>
             </li>
-            <li>
+            <li style={{ marginRight: "1rem" }}>
               <Link
                 to="/aboot"
                 className={currentSection === "aboot" ? "active" : ""}
@@ -28,7 +35,7 @@ const Header = (props) => {
                 Aboot Me
               </Link>
             </li>
-            <li>
+            <li style={{ marginRight: "1rem" }}>
               <Link
                 to="/taboot"
                 className={currentSection === "taboot" ? "active" : ""}
@@ -37,7 +44,7 @@ const Header = (props) => {
                 Me Taboot
               </Link>
             </li>
-            <li>
+            <li style={{ marginRight: "1rem" }}>
               <Link
                 to="/contact"
                 className={currentSection === "contact" ? "active" : ""}
@@ -46,7 +53,7 @@ const Header = (props) => {
                 Contact
               </Link>
             </li>
-            <li>
+            <li style={{ marginRight: "1rem" }}>
               <Link
                 to="/resume"
                 className={currentSection === "resume" ? "active" : ""}
