@@ -10,19 +10,27 @@ const Aboot = () => {
         </h2>
       </div>
       <div className="row justify-content-center">
-        <div className="aboot-content col-8">
+        <div
+          className="aboot-content col-8"
+          style={{ maxWidth: "100%", overflow: "hidden" }}
+        >
           <div
             className="aboot-img"
             style={{
               maxWidth: "50%",
               float: "right",
-              animation: "spin 2s linear",
+              animation: "spin 1s linear",
             }}
           >
             <img
               src={image}
               alt="A portrait of the developer as an aging father."
-              style={{ maxWidth: "30%", borderRadius: "8px" }}
+              style={{
+                maxWidth: "30%",
+                borderRadius: "8px",
+                width: "100%",
+                height: "auto",
+              }}
             />
           </div>
           <p>

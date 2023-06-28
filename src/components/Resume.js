@@ -12,7 +12,9 @@ const Resume = () => {
           management system from the ground up for Audix USA, producer of
           microphones for every room from the boardroom to concert halls. I
           inspected titanium-cast aircraft and military components for Precision
-          Castparts.
+          Castparts. Now I am aiming to become a web-developer for a socially
+          conscious company that is actively working to make the world a better
+          place for all.
         </p>
         <a href="resume-link" download>
           Resume Download

@@ -33,30 +33,45 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact-form">
-      <div className="flex-row">
+      <div className="container">
         <h2 className="title">Contact</h2>
         <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder="Name"
-            value={name}
-            onChange={handleNameChange}
-            onBlur={() => handleBlur("name")}
-          />
-          {nameError && <p className="error">Name is required</p>}
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={handleEmailChange}
-            onBlur={() => handleBlur("email")}
-          />
-          {emailError && <p className="error">Invalid email address</p>}
-          <textarea
-            placeholder="Message"
-            value={message}
-            onChange={(event) => setMessage(event.target.value)}
-          ></textarea>
+          <div className="form-group">
+            <label htmlFor="name" className="visually-hidden">
+              Name
+            </label>
+            <input
+              type="text"
+              placeholder="Name"
+              value={name}
+              onChange={handleNameChange}
+              onBlur={() => handleBlur("name")}
+            />
+            {nameError && <p className="error">Name is required</p>}
+          </div>
+          <div className="form-group">
+            <label htmlFor="email" className="visually-hidden">
+              Email
+            </label>
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={handleEmailChange}
+              onBlur={() => handleBlur("email")}
+            />
+            {emailError && <p className="error">Invalid email address</p>}
+          </div>
+          <div className="form-group">
+            <label htmlFor="message" className="visually-hidden">
+              Message
+            </label>
+            <textarea
+              placeholder="Message"
+              value={message}
+              onChange={(event) => setMessage(event.target.value)}
+            ></textarea>
+          </div>
           <button type="submit">Deliver</button>
         </form>
       </div>
