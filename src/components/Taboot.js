@@ -60,13 +60,16 @@ const Taboot = () => {
 
   return (
     <section id="taboot">
-      <div className="taboot-content">
+      <div
+        className="taboot-content"
+        style={{ marginTop: "50px", marginBottom: "30px" }}
+      >
         <h3>Me Taboot</h3>
         <div className="row">
           {rows.map((row, index) => (
-            <div className="row" key={index}>
+            <div className="row" key={index} style={{ display: "flex" }}>
               {row.map((taboot, idx) => (
-                <div key={idx} className="col-lg-6 col-md-6 mb-4">
+                <div key={idx} style={{ width: "50%", maxWidth: "50%" }}>
                   <Project
                     title={taboot.title}
                     imgSrc={taboot.imgSrc}

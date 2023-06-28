@@ -9,7 +9,7 @@ const Home = () => {
         </div>
         <div className="d-flex justify-content-center">
           <div className="w-75 text-center">
-            <p className="mx-auto">
+            <p className="mx-auto" style={{ color: "#33202A" }}>
               ...the man of the moment, if only this moment. The man you've come
               here to learn about. The father of two, who has taken on web
               development a little late in the game. The partner who cooks and

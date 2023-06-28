@@ -5,7 +5,11 @@ const Aboot = () => {
   return (
     <section id="aboot" className="my-6 container">
       <div className="row justify-content-center">
-        <h2 className="title prime-border col-8" id="aboot-me">
+        <h2
+          style={{ marginLeft: "7%" }}
+          className="title prime-border col-8"
+          id="aboot-me"
+        >
           Aboot Me, eh
         </h2>
       </div>

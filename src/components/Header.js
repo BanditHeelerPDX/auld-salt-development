@@ -7,11 +7,13 @@ const Header = (props) => {
   return (
     <header>
       <div className="header-content">
-        <h1>BanditHeelerPDX</h1>
+        <h1 style={{ marginLeft: "16%", color: "#000000" }}>BanditHeelerPDX</h1>
         <nav>
           <ul
             style={{
               display: "flex",
+              float: "right",
+              marginRight: "20%",
               margin: "0",
               padding: "0",
               listStyle: "none",
