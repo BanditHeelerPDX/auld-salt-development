@@ -4,10 +4,15 @@ const Resume = () => {
   return (
     <section id="resume">
       <div className="resume-content">
-        <h3 style={{ marginLeft: "20%" }}>Resume</h3>
+        <h3 style={{ marginLeft: "20%", color: "#33202A" }}>Resume</h3>
         <div className="row justify-content-center">
           <p
-            style={{ width: "66%", display: "flex", justifyContent: "center" }}
+            style={{
+              width: "66%",
+              display: "flex",
+              justifyContent: "center",
+              color: "#5F5566",
+            }}
           >
             I have worked every position in a restaurant from dishwasher to
             general manager. I worked as a research analyst for the attorney who
@@ -20,7 +25,11 @@ const Resume = () => {
             world a better place for all.
           </p>
           <a
-            style={{ display: "flex", justifyContent: "center" }}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              color: "#000000",
+            }}
             href="resume-link"
             download
           >
