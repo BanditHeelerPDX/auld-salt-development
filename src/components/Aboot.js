@@ -34,7 +34,7 @@ const Aboot = () => {
               }}
             />
           </div>
-          <p>
+          <p style={{ color: "#33202A" }}>
             Born in Colorado, raised across the US by popular culture and some
             culture a little less than popular. Partner, Father, Athlete,
             Developer, Outdoorsman; equally aware of how much I know and how
