@@ -14,10 +14,7 @@ const Aboot = () => {
         </h2>
       </div>
       <div className="row justify-content-center">
-        <div
-          className="aboot-content col-8"
-          style={{ maxWidth: "100%", overflow: "hidden" }}
-        >
+        <div className="aboot-content col-8" style={{ maxWidth: "100%" }}>
           <div
             className="aboot-img"
             style={{
