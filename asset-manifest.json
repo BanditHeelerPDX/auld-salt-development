@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.26ab4fa7.css",
-    "main.js": "/static/js/main.753ec69e.js",
-    "static/js/787.419a0f6d.chunk.js": "/static/js/787.419a0f6d.chunk.js",
-    "static/media/weather-scrsht.png": "/static/media/weather-scrsht.b44c9c851da32b565796.png",
-    "static/media/furry-friend-scrsht.png": "/static/media/furry-friend-scrsht.94c161b0e8255d9f0a9e.png",
-    "static/media/viking-me.jpg": "/static/media/viking-me.dd14f6dec681d3e104f0.jpg",
-    "static/media/social-media-scrsht.png": "/static/media/social-media-scrsht.3d37d6ebce11fd2f3a99.png",
-    "static/media/gist-scrsht.png": "/static/media/gist-scrsht.fd3b18eefd4820e9e898.png",
-    "static/media/babycorp-db-scrsht.png": "/static/media/babycorp-db-scrsht.0ee71e63f98d6cbf933d.png",
-    "static/media/read-my-node-scrsht.png": "/static/media/read-my-node-scrsht.7029070ac3cb133f1dd2.png",
-    "index.html": "/index.html",
-    "main.26ab4fa7.css.map": "/static/css/main.26ab4fa7.css.map",
-    "main.753ec69e.js.map": "/static/js/main.753ec69e.js.map",
-    "787.419a0f6d.chunk.js.map": "/static/js/787.419a0f6d.chunk.js.map"
+    "main.css": "/auld-salt-development/static/css/main.26ab4fa7.css",
+    "main.js": "/auld-salt-development/static/js/main.3253e6a3.js",
+    "static/js/787.419a0f6d.chunk.js": "/auld-salt-development/static/js/787.419a0f6d.chunk.js",
+    "static/media/weather-scrsht.png": "/auld-salt-development/static/media/weather-scrsht.b44c9c851da32b565796.png",
+    "static/media/furry-friend-scrsht.png": "/auld-salt-development/static/media/furry-friend-scrsht.94c161b0e8255d9f0a9e.png",
+    "static/media/viking-me.jpg": "/auld-salt-development/static/media/viking-me.dd14f6dec681d3e104f0.jpg",
+    "static/media/social-media-scrsht.png": "/auld-salt-development/static/media/social-media-scrsht.3d37d6ebce11fd2f3a99.png",
+    "static/media/gist-scrsht.png": "/auld-salt-development/static/media/gist-scrsht.fd3b18eefd4820e9e898.png",
+    "static/media/babycorp-db-scrsht.png": "/auld-salt-development/static/media/babycorp-db-scrsht.0ee71e63f98d6cbf933d.png",
+    "static/media/read-my-node-scrsht.png": "/auld-salt-development/static/media/read-my-node-scrsht.7029070ac3cb133f1dd2.png",
+    "index.html": "/auld-salt-development/index.html",
+    "main.26ab4fa7.css.map": "/auld-salt-development/static/css/main.26ab4fa7.css.map",
+    "main.3253e6a3.js.map": "/auld-salt-development/static/js/main.3253e6a3.js.map",
+    "787.419a0f6d.chunk.js.map": "/auld-salt-development/static/js/787.419a0f6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26ab4fa7.css",
-    "static/js/main.753ec69e.js"
+    "static/js/main.3253e6a3.js"
   ]
 }
