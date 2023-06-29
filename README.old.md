@@ -1,1 +1,0 @@
-# auld-salt-development
